@@ -144,8 +144,10 @@ All three system buttons are hardware-stabilized using a parallel capacitor and 
    🔴 Red LED                          ⚪ White LED
 
 ```
+### 3. Video of Physal implementation
+https://drive.google.com/drive/folders/18pMYzOKJq9ZjiFAOqLGpQYy0yNzwI_-t
 
-### 3. Complete Circuit Diagram
+### 4. Complete Circuit Diagram
 
 The underlying circuit schematic is mapped out according to strict TTL/CMOS logic voltage levels. Complex checking operations—such as preventing inputs when full and evaluating counter thresholds—rely on routing the binary counter outputs (`Qa, Qb, Qc, Qd`) through combinations of `4082` AND gates and `4093` NAND gates.
 
